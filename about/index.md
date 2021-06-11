@@ -5,6 +5,8 @@ templateClass: tmpl-post
 eleventyNavigation:
   key: About Me
   order: 3
+
+
 ---
 
-I am a person that.
+I am a person that is learning web development.
