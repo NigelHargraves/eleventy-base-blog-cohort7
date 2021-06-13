@@ -62,10 +62,10 @@ main :first-child {
     margin-top: 0;
 }
 
-.header {
-    border-bottom: 1px dashed var(--lightgray);
+header {
     color: white;
     background-color: #4b1feb;
+    border-bottom: 1px dashed var(--lightgray);
 }
 
 header:after {
