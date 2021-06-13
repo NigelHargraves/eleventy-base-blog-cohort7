@@ -62,7 +62,7 @@ main :first-child {
     margin-top: 0;
 }
 
-header {
+.header {
     border-bottom: 1px dashed var(--lightgray);
     color: white;
     background-color: #4b1feb;
