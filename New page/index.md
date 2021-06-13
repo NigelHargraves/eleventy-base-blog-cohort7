@@ -1,9 +1,9 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: New page
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About Me
+  key: New page
   order: 4
 
 
