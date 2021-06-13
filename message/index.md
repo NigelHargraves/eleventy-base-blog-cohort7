@@ -23,5 +23,9 @@ eleventyNavigation:
   <br>
   <textarea rows="4" cols="50" name="comment" form="userform" required>
   Enter message here...</textarea><br>
+  <br>
+  <input type="checkbox" id="t&c" name="t&c" required>
+  <label for="t&c">Terms and Conditions</label><br>
+  <br>
   <input type="submit"><br> 
 </form>
