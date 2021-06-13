@@ -1,9 +1,9 @@
 ---
 layout: layouts/post.njk
-title: New page
+title: Links page
 templateClass: tmpl-post
 eleventyNavigation:
-  key: New page
+  key: Links page
   order: 4
 
 ---
