@@ -11,7 +11,13 @@ eleventyNavigation:
 
 I am a person that is learning web development.
 
-<a class="btn btn-primary" href="https://github.com/NigelHargraves" role="button">Github profile page></a>
+<a href="https://github.com/NigelHargraves">
+  <button style="width:160;height:24;">Image analysis
+  </button></a>
+ 
+
+
+
 
 
 
