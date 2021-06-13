@@ -10,12 +10,12 @@ eleventyNavigation:
 
 <div class="row">
   <div class="col">
-    <label for="firstName" class="form-label">Example label</label>
-    <input type="text" class="form-control" id="firstName" placeholder="First name"></div>
+    <label for="firstName" class="form-label">First Name</label>
+    <input type="text" class="form-control" id="firstName" ></div>
   </div>
   <div class="col">
-    <label for="sirName" class="form-label">Example label</label>
-    <input type="text" class="form-control" id="sirName" placeholder="Sir name"></div>
+    <label for="sirName" class="form-label">Sir Name</label>
+    <input type="text" class="form-control" id="sirName" ></div>
     
   </div>
 </div>
