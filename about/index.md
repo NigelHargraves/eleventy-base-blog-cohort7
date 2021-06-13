@@ -11,15 +11,9 @@ eleventyNavigation:
 
 I am a person that is learning web development.
 
-<a href="https://github.com/NigelHargraves">
-  <button style="width:160;height:24;">Image analysis
-  </button></a>
- 
 
 
-
-
-
+<button type="button"><a href="https://github.com/NigelHargraves">Github profile page</a></button>
 
 <button type="button"><a href="https://codepen.io/nigel-hargraves/pen/ExWXXjW">Code pen frameworks task</a></button>
 
