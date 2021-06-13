@@ -8,14 +8,9 @@ eleventyNavigation:
 
 ---
 
-<div class="row">
-  <div class="col">
-    <label for="firstName" class="form-label">First Name</label>
-    <input type="text" class="form-control" id="firstName" ></div>
-  </div>
-  <div class="col">
-    <label for="sirName" class="form-label">Sir Name</label>
-    <input type="text" class="form-control" id="sirName" ></div>
-    
-  </div>
-</div>
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
