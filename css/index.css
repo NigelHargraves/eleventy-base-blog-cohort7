@@ -64,7 +64,7 @@ main :first-child {
 
 header {
     border-bottom: 1px dashed var(--lightgray);
-    color: #a5f511;
+    color: #f8f8ef;
     background-color: #4b1feb;
 }
 
