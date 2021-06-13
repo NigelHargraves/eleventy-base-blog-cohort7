@@ -64,6 +64,8 @@ main :first-child {
 
 header {
     border-bottom: 1px dashed var(--lightgray);
+    color: #8bdada;
+    background-color: #05130f;
 }
 
 header:after {
@@ -176,8 +178,6 @@ code {
     list-style: none;
     float: left;
     margin-left: 1em;
-    color: #8bdada;
-    background-color: #05130f;
 }
 
 .nav-item {
