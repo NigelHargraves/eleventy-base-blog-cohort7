@@ -18,7 +18,9 @@ eleventyNavigation:
   <input type="text" id="sname" name="sname"><br>
   <label for="email">Email:</label><br>
   <input type="email" id="email" name="email"><br>
-   
+
+  --- 
+  
   <textarea rows="4" cols="50" name="comment" form="usrform">
   Enter text here...</textarea><br>
   <input type="submit"><br> 
