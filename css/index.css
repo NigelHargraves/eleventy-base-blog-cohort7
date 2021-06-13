@@ -63,8 +63,7 @@ main :first-child {
 }
 
 header {
-    color: white;
-    background-color: #4b1feb;
+    background-color: #b3a4f0;
     border-bottom: 1px dashed var(--lightgray);
 }
 
