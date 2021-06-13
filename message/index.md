@@ -11,7 +11,7 @@ eleventyNavigation:
 
 
 
-<form action="urlhere" id="usrform">
+<form action="url here"  method="post" id="userform">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" required><br>
   <br>
@@ -21,7 +21,7 @@ eleventyNavigation:
   <label for="email">Email:</label><br>
   <input type="email" id="email" name="email" required><br>
   <br>
-  <textarea rows="4" cols="50" name="comment" form="usrform" required>
+  <textarea rows="4" cols="50" name="comment" form="userform" required>
   Enter message here...</textarea><br>
   <input type="submit"><br> 
 </form>
