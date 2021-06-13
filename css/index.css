@@ -25,11 +25,6 @@ body {
     background-color: var(--white);
 }
 
-nav {
-    color: #8bdada;
-    background-color: #05130f;
-}
-
 button {
     color: #113344;
     background-color: #77bbaa;
@@ -181,6 +176,8 @@ code {
     list-style: none;
     float: left;
     margin-left: 1em;
+    color: #8bdada;
+    background-color: #05130f;
 }
 
 .nav-item {
