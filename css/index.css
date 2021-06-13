@@ -25,6 +25,11 @@ body {
     background-color: var(--white);
 }
 
+nav {
+    color: #8bdada;
+    background-color: #05130f;
+}
+
 button {
     color: #113344;
     background-color: #77bbaa;
