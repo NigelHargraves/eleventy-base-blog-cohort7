@@ -1,4 +1,3 @@
-<!--my fifth post-->
 ---
 title: This is my fifth post.
 description: This is a post on My Blog about touchpoints and circling wagons.
