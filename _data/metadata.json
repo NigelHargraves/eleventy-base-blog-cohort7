@@ -1,13 +1,13 @@
 {
     "title": "Web Overload Blog",
-    "url": "https://github.com/NigelHargraves",
+    "url": "https://nigelhargraveswebdeveloperprofile.netlify.app/",
     "language": "en",
     "description": "I am writing about my experiences as a trainee web developer.",
     "feed": {
         "subtitle": "I am writing about my experiences as a trainee web developer.",
         "filename": "feed.xml",
         "path": "/feed/feed.xml",
-        "id": "https://github.com/NigelHargraves"
+        "id": "https://nigelhargraveswebdeveloperprofile.netlify.app/"
     },
     "jsonfeed": {
         "path": "/feed/feed.json",
