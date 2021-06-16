@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Links page
 templateClass: tmpl-post
 eleventyNavigation:
-  key: Links page
+  key: Linkspage
   order: 4
 
 ---
