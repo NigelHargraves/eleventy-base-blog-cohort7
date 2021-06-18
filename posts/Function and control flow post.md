@@ -1,6 +1,6 @@
 ---
-title: This is my Programming Concepts - Task post.
-description: This is a post on My Blog about Programming Concepts - Task.
+title: Functions and control flow - Task post.
+description: This is a post on My Blog about Functions and control flow - Task post.
 date: 2021-06-18
 tags: second tag
 layout: layouts/post.njk
