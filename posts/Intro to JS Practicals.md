@@ -17,4 +17,4 @@ Console.log the returned value.
 
 ![help](file://images/percentage-function.PNG)
 
-<img src = "https://github.com/NigelHargraves/eleventy-base-blog-cohort7/blob/master/images/percentage-function.PNG">
+<img src = https://github.com/NigelHargraves/eleventy-base-blog-cohort7/blob/master/images/percentage-function.PNG>
