@@ -15,4 +15,4 @@ Do the maths required to work out a percentage with the arguments,
 Return the result of the maths,
 Console.log the returned value.
 
-![percentage function(https://github.com/NigelHargraves/eleventy-base-blog-cohort7/blob/master/images/percentage-function.PNG)]
+![](https://github.com/NigelHargraves/eleventy-base-blog-cohort7/blob/master/images/percentage-function.PNG)
