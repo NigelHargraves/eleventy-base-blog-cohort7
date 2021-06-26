@@ -9,11 +9,11 @@ layout: layouts/post.njk
 Task 1 - Percentage Calculator
 Create a function that is able to return a specific percentage of any number.
 For example you want to know what 30% of 135 is,
-Create a function named percentageCalculator,
-Add 2 arguments for “number” and “percentage”,
-Do the maths required to work out a percentage with the arguments,
-Return the result of the maths,
-Console.log the returned value.
+1.Create a function named percentageCalculator,
+2.Add 2 arguments for “number” and “percentage”,
+3.Do the maths required to work out a percentage with the arguments,
+4.Return the result of the maths,
+5.Console.log the returned value.
 
 ![help](file://images/percentage-function.PNG)
 
