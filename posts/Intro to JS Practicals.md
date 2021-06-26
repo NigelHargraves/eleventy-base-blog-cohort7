@@ -15,4 +15,4 @@ Do the maths required to work out a percentage with the arguments,
 Return the result of the maths,
 Console.log the returned value.
 
-
+![Tux, the Linux mascot](/assets/images/tux.png)
