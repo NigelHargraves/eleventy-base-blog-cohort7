@@ -16,3 +16,5 @@ Return the result of the maths,
 Console.log the returned value.
 
 ![help](file://images/percentage-function.PNG)
+
+<img src = "images/percentage-function.PNG">
