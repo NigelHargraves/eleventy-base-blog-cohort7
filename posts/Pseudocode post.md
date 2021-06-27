@@ -6,7 +6,7 @@ tags: second tag
 layout: layouts/post.njk
 ---
 
-<h1>What is Pseudocode?</h1>
+## What is Pseudocode?
 
 It is a simpler version of programming code - it is written plain English, basically it is the thoughts of the programer thinking of a solution written down at the start of the program.
 
