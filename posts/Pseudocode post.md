@@ -10,7 +10,7 @@ layout: layouts/post.njk
 
 It is a simpler version of programming code - it is written plain English, basically it is the thoughts of the programer thinking of a solution written down at the start of the program.
 
-Also in the program are comments that are used to explane to the programmer or any other programmer what a section of the program is doing or is ment to do, there are symbols to tell the computer that this is a comment but the syntax varies in different program languages.
+Also in the program are comments that are used to explane to the programmer or any other programmer what a section of the program is doing or is ment to do, there are symbols to tell the computer that this is a comment but the syntax varies in different program languages, the syntax in javascript for a block of text is /* and closing with */, the syntax for a line comment is //.
 
 Here is an example of a program with pseudocode and comments.
 
