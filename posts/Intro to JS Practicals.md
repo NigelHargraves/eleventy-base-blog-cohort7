@@ -17,4 +17,4 @@ For example you want to know what 30% of 135 is,
 
 ![](images/percentage-function.PNG)
 
-<img src = 'https://github.com/NigelHargraves/eleventy-base-blog-cohort7/blob/master/images/percentage-function.PNG'>
+<img src = "https://github.com/NigelHargraves/eleventy-base-blog-cohort7/blob/master/images/percentage-function.PNG">
