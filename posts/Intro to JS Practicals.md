@@ -15,6 +15,6 @@ For example you want to know what 30% of 135 is,
 4 Return the result of the maths,
 5 Console.log the returned value.
 
-![help](images/percentage-function.PNG)
+![](images/percentage-function.PNG);
 
 <img src = 'https://github.com/NigelHargraves/eleventy-base-blog-cohort7/blob/master/images/percentage-function.PNG'>
