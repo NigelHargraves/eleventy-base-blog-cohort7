@@ -1,6 +1,6 @@
 ---
 title: This is my Pseudocode post.
-description: This is a post on My Blog Pseudocode.
+description: This is a post on My Blog about Pseudocode.
 date: 2021-06-27
 tags: second tag
 layout: layouts/post.njk
