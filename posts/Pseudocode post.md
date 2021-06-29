@@ -1,5 +1,5 @@
 ---
-title: This is my Pseudocode post.
+title: Pseudocode post.
 description: This is a post on My Blog about Pseudocode.
 date: 2021-06-27
 tags: second tag
@@ -14,6 +14,7 @@ Also in the program are comments that are used to explane to the programmer or a
 
 Here is an example of a program with pseudocode and comments.
 
+``` js
 /*Create a function called fixStart. It should take a single argument, a
 string, and return a version where all occurrences of its first character
 have been replaced with ‘*****’, except for the first character itself. You
@@ -57,3 +58,5 @@ document.write('<br>');
 fixStart("puppies");
 document.write('<br>');
 fixStart("mummies");
+
+```
