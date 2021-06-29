@@ -8,13 +8,6 @@ layout: layouts/post.njk
 
 ## Task 1 - Percentage Calculator:
 
-## Task 2 - Switch Statement:
-
-## Task 3 - Calculator:
-
-
-Task 1 - Percentage Calculator:
-
 Create a function that is able to return a specific percentage of any number.
 For example you want to know what 30% of 135 is,
 1 Create a function named percentageCalculator,
@@ -35,7 +28,7 @@ const result = calcPercent(135, 30); //declare variable and call function
 console.log(result); //write result
 ```
 
-Task 2 - Switch Statement:
+## Task 2 - Switch Statement:
 
 Customers can order 3 different types of drink and also select 3 sizes.
 Cola, Lemonade, Orangeade, Small, Medium and Large.
@@ -70,7 +63,7 @@ console.log(drinkOrder(drinkSize, drinkType)); //call function and pass paramete
 ```
 
 
-Task 3 - Calculator:
+## Task 3 - Calculator:
 
 We need to create a function capable of using the addition, subtraction, multiply, divider or modulus operator on 2 numbers provided.
 1 Create a function named calculator
