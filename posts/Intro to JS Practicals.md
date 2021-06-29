@@ -16,12 +16,5 @@ For example you want to know what 30% of 135 is,
 5 Console.log the returned value.
 
 ``` text/2-3
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
 
-// Test with a line break above this line.
-console.log('Test');
 ```
