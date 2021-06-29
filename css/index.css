@@ -36,6 +36,7 @@ button {
     bottom: 0;
     width: 100%;
     background-color: rgb(4, 51, 43);
+    border-top: 1px dashed var(--lightgray);
 }
 
 p:last-child {
@@ -121,8 +122,8 @@ code {
     word-break: break-all;
 }
 
-fnav {
-    color: white;
+.fnav {
+    color: azure
 }
 
 .highlight-line {
