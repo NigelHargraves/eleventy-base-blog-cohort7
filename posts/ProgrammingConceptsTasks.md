@@ -10,7 +10,7 @@ At the end of this lesson the take home task was to calculate a tip amount from 
 
 example code:
 
-``` js/2/4
+``` js
 //a function to return the value of the tip
 function tipTotal() {
     return tipPercentage / 100 * preTipTotal; //calc tip;
