@@ -15,6 +15,14 @@ For example you want to know what 30% of 135 is,
 4 Return the result of the maths,
 5 Console.log the returned value.
 
+example code:
 ``` text/2-3
+//function to calculate percentage
+function calcPercent(number, percent) {
+    return (number / 100) * percent;
+}
 
+const result = calcPercent(135, 30); //declare variable and call function
+
+console.log(result); //write result
 ```
