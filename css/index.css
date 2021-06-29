@@ -23,7 +23,6 @@ body {
     font-family: -apple-system, system-ui, sans-serif;
     color: var(--darkgray);
     background-color: rgb(91, 194, 235);
-    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
 }
 
 button {
@@ -58,6 +57,7 @@ a[href]:visited {
 main {
     padding: 1rem;
     background-color: rgb(158, 231, 219);
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
 }
 
 main :first-child {
