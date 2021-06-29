@@ -26,3 +26,36 @@ const result = calcPercent(135, 30); //declare variable and call function
 
 console.log(result); //write result
 ```
+
+Task 2 - Switch Statement:
+Customers can order 3 different types of drink and also select 3 sizes.
+Cola, Lemonade, Orangeade, Small, Medium and Large.
+The button they press have the values “cola”,”lemon”,”orange”
+Create a function that will output the message “You have ordered a {size} of {softDrinkLabel}”,
+Create a function named drinkOrder add 2 arguments for “size” and “drink”.
+Use a switch statement to determine where the functional code needs to be written,
+Create a message in each case statement to be returned.
+Console.log the returned message.
+
+example code:
+``` text/2-3
+//function to switch drinkType
+function drinkOrder(size, type) {
+    switch (type) {
+        case "cola":
+            drinkType = 'Cola';
+            break;
+        case "lemon":
+            drinkType = 'Lemonade';
+            break;
+        case "orange":
+            drinkType = 'Orangeade';
+    }
+    return `you have ordered a ${size} drink of ${drinkType}.`; //return result
+}
+//variables
+var drinkSize = 'large',
+    drinkType = 'lemon';
+
+console.log(drinkOrder(drinkSize, drinkType)); //call function and pass parameters and write result
+```
