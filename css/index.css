@@ -122,10 +122,6 @@ code {
     word-break: break-all;
 }
 
-.fnav {
-    color: azure
-}
-
 .highlight-line {
     display: block;
     padding: 0.125em 1em;
