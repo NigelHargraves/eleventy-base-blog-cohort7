@@ -30,6 +30,13 @@ button {
     background-color: #77bbaa;
 }
 
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 p:last-child {
     margin-bottom: 0;
 }
