@@ -36,8 +36,6 @@ button {
     bottom: 0;
     width: 100%;
     background-color: rgb(4, 51, 43);
-    color: white;
-    text-align: center;
 }
 
 p:last-child {
@@ -121,6 +119,10 @@ pre {
 
 code {
     word-break: break-all;
+}
+
+.fnav {
+    color: white;
 }
 
 .highlight-line {
