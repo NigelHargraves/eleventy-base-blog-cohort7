@@ -11,18 +11,20 @@ The next function is to take a first name and a last name and combine them to ma
 
 As well as receiving parameters a function can also return them, I created a function called 'returnFunction' and inside the function I am going to square a number and return the result i.e. return number * number;. To call the function I have to pass it a number i.e. const multiplyNumber = returnFunction(3); so the variable name 'number' inside the function is given the value of 3, when the calculation has done the returning number will be 9 so the variable 'multiplyNumber' is given the value of 9 and then we write out the result i.e. document.write('this is the number: ' + multiplyNumber);.
 
-The next function is going to use if else statments and the logical operator and'&&', first I pass the function the temperature i.e. temperature(-10); then inside the function named 'temperature' the variable 'tempnumber' is given the value of -10, inside the function I use if else and '&&' statments to calculate what range the temperature is at so I can decide to wear a coat or coat and hat or it's to cold or pants and vest is fine the code looks like this. 
+The next function is going to use if else statments and the logical operator and'&&', first I pass the function the temperature i.e. temperature(-10); then inside the function named 'temperature' the variable 'tempnumber' is given the value of -10, inside the function I use if else and '&&' statments to calculate what range the temperature is at so I can decide to wear a coat or coat and hat or it's to cold or pants and vest is fine the code looks like this.
 
+``` js
 function temperature(tempNumber){
   if (tempNumber < 50 && tempNumber >= 30)  {
     document.write('wear a coat: ');
   } else if (tempNumber < 30 && tempNumber >= 0) {
     document.write('wear a coat and a hat: ');
   }  else if (tempNumber < 0) {
-    document.write('it is to cold stay inside') 
+    document.write('it is to cold stay inside')
   } else {
     document.write('just pants and vest is fine')
-  }  
-} 
+  }
+}
+```
 
 When the tempNumber variable falls inside the rage set in each if statment the message in the document.write is written out, if the variable tempNumber is not in any of the ranges then the last else statment is executed so the number must be 50 or above.
