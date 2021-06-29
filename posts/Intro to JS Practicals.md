@@ -17,7 +17,7 @@ For example you want to know what 30% of 135 is,
 5 Console.log the returned value.
 
 example code:
-``` text
+``` js
 //function to calculate percentage
 function calcPercent(number, percent) {
     return (number / 100) * percent;
@@ -40,7 +40,7 @@ The button they press have the values “cola”,”lemon”,”orange”
 5 Console.log the returned message.
 
 example code:
-``` text
+``` js
 //function to switch drinkType
 function drinkOrder(size, type) {
     switch (type) {
@@ -73,7 +73,7 @@ We need to create a function capable of using the addition, subtraction, multipl
 5 Console.log a message “{number1} {operator} {number2} = {value}”
 
 example code:
-``` text
+``` js
 //function to calculate 2 numbers
 function calculator(number1, number2, operator) {
     switch (operator) {
