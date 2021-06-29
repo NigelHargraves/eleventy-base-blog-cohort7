@@ -56,8 +56,7 @@ a[href]:visited {
 
 main {
     padding: 1rem;
-    background-color: rgb(158, 231, 219);
-    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+    background: linear-gradient( rgb(158, 231, 219), rgb(43, 133, 118));
 }
 
 main :first-child {
