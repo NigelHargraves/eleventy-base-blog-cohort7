@@ -31,11 +31,11 @@ console.log(result); //write result
 Customers can order 3 different types of drink and also select 3 sizes.
 Cola, Lemonade, Orangeade, Small, Medium and Large.
 The button they press have the values “cola”,”lemon”,”orange”
-Create a function that will output the message “You have ordered a {size} of {softDrinkLabel}”,
-Create a function named drinkOrder add 2 arguments for “size” and “drink”.
-Use a switch statement to determine where the functional code needs to be written,
-Create a message in each case statement to be returned.
-Console.log the returned message.
+1 Create a function that will output the message “You have ordered a {size} of {softDrinkLabel}”,
+2 Create a function named drinkOrder add 2 arguments for “size” and “drink”.
+3 Use a switch statement to determine where the functional code needs to be written,
+4 Create a message in each case statement to be returned.
+5 Console.log the returned message.
 
 example code:
 ``` text/2-3
@@ -58,4 +58,45 @@ var drinkSize = 'large',
     drinkType = 'lemon';
 
 console.log(drinkOrder(drinkSize, drinkType)); //call function and pass parameters and write result
+```
+
+## Task 3 - Calculator
+
+We need to create a function capable of using the addition, subtraction, multiply, divider or modulus operator on 2 numbers provided.
+1 Create a function named calculator
+2 Add 3 arguments for “number1”, “number2” and “operator”
+3 Use a switch statement to determine which operator to use
+4 Add the math code for each operator in the case statement to return the value
+5 Console.log a message “{number1} {operator} {number2} = {value}”
+
+example code:
+```
+//function to calculate 2 numbers
+function calculator(number1, number2, operator) {
+    switch (operator) {
+        case "+":
+            value = number1 + number2;
+            break;
+        case "-":
+            value = number1 - number2;
+            break;
+        case "*":
+            value = number1 * number2;
+            break;
+        case "/":
+            value = number1 / number2;
+            break;
+        case "%":
+            value = number1 % number2;
+    }
+    return `${number1} ${operator} ${number2} = ${value}.`; //return result
+}
+
+//call function and pass parameters and write result
+console.log(calculator(4, 3, "+"));
+console.log(calculator(4, 3, "-"));
+console.log(calculator(4, 3, "*"));
+console.log(calculator(4, 3, "/"));
+console.log(calculator(4, 3, "%"));
+console.log(calculator(4, 2, "%"));
 ```
