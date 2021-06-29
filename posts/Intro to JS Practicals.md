@@ -15,6 +15,13 @@ For example you want to know what 30% of 135 is,
 4 Return the result of the maths,
 5 Console.log the returned value.
 
-![help](https://github.com/NigelHargraves/eleventy-base-blog-cohort7/blob/master/images/percentage-function.PNG)
+``` text/2-3
+// this is a command
+function myCommand() {
+	let counter = 0;
+	counter++;
+}
 
-<img src = "https://github.com/NigelHargraves/eleventy-base-blog-cohort7/blob/master/images/percentage-function.PNG">
+// Test with a line break above this line.
+console.log('Test');
+```
