@@ -1,6 +1,6 @@
 ---
-title: Loops, Arrays and Objects post.
-description: This is a post on My Blog about Loops, Arrays and Objects.
+title: Loops, Arrays and Objects Lesson 1 Tasks post.
+description: This is a post on My Blog about Loops, Arrays and Objects Lesson 1 Tasks.
 date: 2021-06-28
 tags: second tag
 layout: layouts/post.njk
