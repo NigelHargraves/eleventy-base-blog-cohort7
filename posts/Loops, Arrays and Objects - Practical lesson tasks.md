@@ -213,4 +213,151 @@ function getItem(cart,lowPrice,highPrice){
 
 getItem(cart, 2, 5);//call function.
 ```
+Part 5
 
+1. Add an additional argument to the function “quantity” this is going to be a boolean
+2. If quantity == true then account for the total price with the quantity included as being between lowPrice and highPrice
+
+Example code:
+
+```js
+/*Create a function that takes 4
+arguments (cart,lowPrice,highPrice,quantity),
+Create an empty variable array called arrayItems inside the function,
+create a variable to hold the new price,
+Loop through each item in the cart and get the price and the quantity,mutiply them to store in newPrice,
+check if it is higher or equal to the low price and lower or equal to the high price.
+If it is we can add various information to the new array i.e name, type, amount and newPrice, by useing .push.
+Create another loop of arrayItems and display the items.*/
+
+let quantity = true;//boolean variable.
+//cart object array.
+let cart = [
+  { name: "loaf of bread", type: "food", quantity: 1, price: 0.85 },
+  { name: "multipack beans", type: "food", quantity: 1, price: 1 },
+  { name: "mushrooms", type: "food", quantity: 10, price: 0.1 },
+  { name: "can of beer", type: "alcohol", quantity: 4, price: 1.1 },
+  { name: "prosecco", type: "alcohol", quantity: 1, price: 8.99 },
+  { name: "steak", type: "food", quantity: 2, price: 3.99 },
+  { name: "blue cheese", type: "food", quantity: 1, price: 2.99 },
+  { name: "candles", type: "home", quantity: 3, price: 1.99 },
+  { name: "cheesecake", type: "food", quantity: 1, price: 4.99 },
+  { name: "onions", type: "food", quantity: 3, price: 0.4 },
+]
+
+//create function named getItem.
+function getItem(cart,lowPrice,highPrice,quantity){
+  let arrItems = []//create empty array.
+  let newPrice = 0;//integer variable.
+  //loop for cart.
+  for (const item of cart){
+    //multiply price and quantity.
+    newPrice = (item.price) * (item.quantity);
+    //check if newPrice is within the given values.
+    if (newPrice >= lowPrice && newPrice <=highPrice){
+      arrItems.push(`${item.name}  ${item.type}  ${item.quantity} £${newPrice}`);//add the name,type and price to empty array.
+    }
+  }
+  //loop for arrItems
+  for (const item of arrItems){
+    document.write(item + '</br>');//display array items.
+  }
+}
+
+getItem(cart, 2, 5,quantity);//call function.
+```
+
+## Additional Tasks
+We are going to be creating a function that is able to take all of the values of an array and return the average.
+
+Part 1
+
+The function will be able to return the mode, median or mean of the numbers.
+1. Create an array of random numbers
+2. Create a function that takes 1 argument (the array) which can work out the mean of the numbers provided
+3. Create a function which can work out the mode of the numbers provided
+4. Create a function which can work out the median of the numbers provided
+
+Example code:mean number
+
+```js
+//number array.
+var numberList = [54,82,46,17,36,96,67,35,53,36,46,29,82,36,17];
+
+//mean number function.
+function meanNumber(list){
+  let totalOfNumbers = 0, i;//int variables.
+  //loop through array and add numbers together.
+  for (i = 0;i < list.length;i++) {
+    totalOfNumbers += list[i];
+  }
+  totalOfNumbers /= list.length;//divide amount by array length.
+  return totalOfNumbers;
+}
+
+document.write(meanNumber(numberList) + '</br>');//call function and display number.
+```
+
+Example code:mode number
+
+```js
+//number array.
+var numberList = [54,82,46,17,36,96,67,35,53,36,46,29,82,36,17];
+
+//mode number function
+function modeNumber(list){
+  numberList.sort();//sort to numerical order
+  let newNumberArray = [];
+  let count = 1;
+  let lastNumber = null;
+  for (const number of list){
+    if (number === lastNumber){
+        count++;
+    }else{
+          if (lastNumber){
+            newNumberArray.push({count:count,number:lastNumber})
+          }else{
+               newNumberArray.push ({ count: count, number: number });
+                }
+          count = 1
+          }
+    lastNumber = number;
+    }
+
+      newNumberArray.sort(function(a, b) {
+    return b.count - a.count;
+    });
+   var highest_number = newNumberArray[0];
+   return highest_number.number;
+}
+
+document.write(modeNumber(numberList) + '</br>');//call function display result.
+```
+
+Example code:median number
+
+```js
+//number array.
+var numberList = [54,82,46,17,36,96,67,35,53,36,46,29,82,36,17];
+
+// function to calc median number.
+function medianNumber(list){
+  let median = 0, numslength = list.length; //set variables
+  list.sort();//sort to numerical order
+
+  //check if the length is odd or even
+  if(numslength % 2 === 0){
+
+    median = (list[numslength / 2 - 1] + list[numslength / 2]) / 2;//median is the number between the two center numbers.
+
+    }else {
+         //the center number
+         median = list[(numslength - 1) / 2];
+      }
+   return median;
+
+}
+
+
+document.write(medianNumber(numberList));//call function display result.
+```
