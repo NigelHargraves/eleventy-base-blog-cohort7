@@ -56,3 +56,55 @@ document.write(getTotal(cart).toFixed(2));//call function, pass parameter and di
 
 
 Part 2
+
+1. Create a function that takes 1 argument (the array)
+2. Create a variable inside the function called “totalPrice”
+3. Loop through each item in the array and add the value of the item to the total price, remember to account for the quantity.
+4. If the item has a type of “food” the total price is 20% less
+5. Return the totalPrice Variable
+
+example code:
+
+``` js
+
+/*Create cart and string variable.
+Create a function that takes 1 argument (cart),
+Create a variable called totalPrice inside the function,
+Loop through each item in the array
+create itemPrice variable and multiply by quantity,
+check if item is food type and add 20 % discount.
+add itemPrice to totalPrice and return result.
+document.write() the returned value.*/
+
+let cart = [
+  { name: "loaf of bread", type: "food", quantity: 1, price: 0.85 },
+  { name: "multipack beans", type: "food", quantity: 1, price: 1 },
+  { name: "mushrooms", type: "food", quantity: 10, price: 0.1 },
+  { name: "can of beer", type: "alcohol", quantity: 4, price: 1.1 },
+  { name: "prosecco", type: "alcohol", quantity: 1, price: 8.99 },
+  { name: "steak", type: "food", quantity: 2, price: 3.99 },
+  { name: "blue cheese", type: "food", quantity: 1, price: 2.99 },
+  { name: "candles", type: "home", quantity: 3, price: 1.99 },
+  { name: "cheesecake", type: "food", quantity: 1, price: 4.99 },
+  { name: "onions", type: "food", quantity: 3, price: 0.4 },
+];
+
+
+
+//create function named addToCart.
+function getTotal(cart){
+  let totalPrice = 0;//integer variable.
+
+  //loop through the items in cart.
+  for (const item of cart){
+    let itemPrice = item.price * item.quantity;//create variable and calc quantity.
+    if (item.type === "food"){
+      itemPrice -= (item.price * 20) / 100// add 20 % discount.
+    }
+   totalPrice += itemPrice;  //add to totalPrice.
+  }
+  return totalPrice;//return result.
+}
+
+document.write(getTotal(cart).toFixed(2));//call function, pass parameters and display result.
+```
