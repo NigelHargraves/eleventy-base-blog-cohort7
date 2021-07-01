@@ -108,3 +108,56 @@ function getTotal(cart){
 
 document.write(getTotal(cart).toFixed(2));//call function, pass parameters and display result.
 ```
+
+
+Part 3
+
+1. Add 2 extra arguments to the function for “discountAmount” and “type”
+2. Replace the logic that takes off 20% for object.type == “food” for object.type == type and allow the 20% to be the {discountAmount}%
+3. Create logic so that if type == “any” all products have a discount applied
+
+example code:
+
+```js
+/*Create cart and string variable.
+Create a function that takes 3
+arguments (cart,discountAmount,type),
+Create a variable called totalPrice inside the function,
+Loop through each item in the array
+check if we need to add a discount this can be set to any or an item.type
+create variable itemPrice to equal price * quantity then check if we need to add
+a discount, add itemPrice to totalPrice and return result.
+document.write() the returned value.*/
+
+let cart = [
+  { name: "loaf of bread", type: "food", quantity: 1, price: 0.85 },
+  { name: "multipack beans", type: "food", quantity: 1, price: 1 },
+  { name: "mushrooms", type: "food", quantity: 10, price: 0.1 },
+  { name: "can of beer", type: "alcohol", quantity: 4, price: 1.1 },
+  { name: "prosecco", type: "alcohol", quantity: 1, price: 8.99 },
+  { name: "steak", type: "food", quantity: 2, price: 3.99 },
+  { name: "blue cheese", type: "food", quantity: 1, price: 2.99 },
+  { name: "candles", type: "home", quantity: 3, price: 1.99 },
+  { name: "cheesecake", type: "food", quantity: 1, price: 4.99 },
+  { name: "onions", type: "food", quantity: 3, price: 0.4 },
+];
+
+let anyType = "any";//string variable.
+
+//create function named addToCart.
+function getTotal(cart,discountAmount,type){
+  let totalPrice = 0;//integer variable.
+  //loop through the items in cart.
+  for (const item of cart){
+    let itemPrice = item.price * item.quantity;//apply quantity
+    //check to apply discount.
+    if (type === "any" || type === item.type){
+      itemPrice -= (itemPrice * discountAmount) / 100;
+    }
+     totalPrice += itemPrice;  //add to totalPrice.
+  }
+  return totalPrice;//return result.
+}
+
+document.write(getTotal(cart, 20, 'food').toFixed(2));//call function, pass parameters and display result.
+```
