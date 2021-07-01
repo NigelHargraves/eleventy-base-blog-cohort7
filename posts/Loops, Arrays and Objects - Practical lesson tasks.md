@@ -8,7 +8,7 @@ layout: layouts/post.njk
 
 ## Task 1 - Shopping Cart
 
-We are going to be using an array of objects provided as a simple shopping cart example.
+We are going to be using an array of objects provided as a simple shopping cart example,
 We need to work out the total cost of the items in the shopping cart.
 
 Part 1
