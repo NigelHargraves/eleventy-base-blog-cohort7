@@ -22,13 +22,10 @@ example code:
 
 ``` js
 /*Create cart and string variable.
-Create a function that takes 1
-arguments (cart),
+Create a function that takes 1 argument (cart),
 Create a variable called totalPrice inside the function,
 Loop through each item in the array
-check if we need to add a discount this can be set to any or an item.type
-create variable itemPrice to equal price * quantity then check if we need to add
-a discount, add itemPrice to totalPrice and return result.
+add itemPrice to totalPrice and account for quantity and return result.
 document.write() the returned value.*/
 
 let cart = [
