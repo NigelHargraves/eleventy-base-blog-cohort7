@@ -361,3 +361,84 @@ function medianNumber(list){
 
 document.write(medianNumber(numberList));//call function display result.
 ```
+
+Part 2
+
+1. Create a new function which takes 2 arguments (the array and a type variable).
+2. Create a switch statement which has the cases ‘mode’, ‘median’ and ‘mean’
+3. Copy and paste the functionality from your 3 previous functions into the case statement
+4. Return the required number based on the arguments passed.
+
+Example code:
+
+```js
+/*Part 2
+
+Create a new function which takes 2 arguments (the array and a type variable).
+Create a switch statement which has the cases ‘mode’, ‘median’ and ‘mean’
+Copy and paste the functionality from your 3 previous functions into the case statement
+Return the required number based on the arguments passed.*/
+
+//number array.
+var numberList = [54,82,46,17,36,96,67,35,53,36,46,29,82,36,17];
+
+let result = 0;
+
+function arrayType(list,type){
+
+  switch (type){
+      case "mean":
+        //loop through array and add numbers together.
+        for (i = 0;i < list.length;i++) {
+          result += list[i];
+        }
+        result /= list.length;//divide amount by array length.
+        break;
+
+      case "mode":
+         numberList.sort();//sort to numerical order
+         let newNumberArray = [];
+         let count = 1;
+         let lastNumber = null;
+         for (const number of list){
+           if (number === lastNumber){
+              count++;
+          }else{
+          if (lastNumber){
+            newNumberArray.push({count:count,number:lastNumber})
+          }else{
+               newNumberArray.push ({ count: count, number: number });
+                }
+          count = 1
+          }
+          lastNumber = number;
+          }
+
+            newNumberArray.sort(function(a, b) {
+          return b.count - a.count;
+          });
+         var highest_number = newNumberArray[0];
+         return highest_number.number;
+
+         break;
+    case "median":
+        let numslength = list.length; //set variables
+        list.sort();//sort to numerical order
+
+        //check if the length is odd or even
+        if(numslength % 2 === 0){
+
+          result = (list[numslength / 2 - 1] + list[numslength / 2]) / 2;//median is the number between the two center numbers.
+
+          }else {
+               //the center number
+               result = list[(numslength - 1) / 2];
+            }
+          }
+  return result;
+  }
+
+document.write(arrayType(numberList,"mean") + '</br>');//call function pass array and mean.
+document.write(arrayType(numberList,"mode") + '</br>');//call function pass array and mode.
+document.write(arrayType(numberList,"median"));//call function pass array and median.
+```
