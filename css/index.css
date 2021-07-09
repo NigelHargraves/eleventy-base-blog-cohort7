@@ -22,7 +22,7 @@ body {
     margin: 0;
     font-family: -apple-system, system-ui, sans-serif;
     color: var(--darkgray);
-    background: linear-gradient( rgb(164, 233, 221), rgb(26, 139, 119));
+    background: rgb(164, 233, 221);
 }
 
 button {
